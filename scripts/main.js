@@ -5,7 +5,8 @@
   const FRAME_RATE = 60
   const PARTICLE_NUM = 2000
   const RADIUS = Math.PI * 2
-  const CANVASWIDTH = 500
+//   const CANVASWIDTH = 500
+  const CANVASWIDTH = window.innerWidth
   const CANVASHEIGHT = 150
   const CANVASID = 'canvas'
 
@@ -211,7 +212,7 @@
   
   var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
     if(!isChrome){
-      $('#iframeAudio').remove()
+    //   $('#iframeAudio').remove()
   }
   
   // setTimeout(() => {
